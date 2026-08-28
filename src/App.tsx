@@ -1,8 +1,19 @@
+import Cabecalho from './components/Cabecalho';
+import Conteudo from './components/Conteudo';
+import Rodape from './components/Rodape';
+import { listaAlunos } from './data/alunos';
+
 function App() {
+  const tituloPagina = 'CP4 - Front-End Design Engineering';
+  const logoUrl = '/logo.svg';
+  const textoRodape = '© 2026 FIAP - Análise e Desenvolvimento de Sistemas | CP4';
+
   return (
-    <div>
-      <h1>CP4 - Front-End Design Engineering</h1>
-    </div>
+    <>
+      <Cabecalho titulo={tituloPagina} logo={logoUrl} />
+      <Conteudo alunos={listaAlunos} />
+      <Rodape texto={textoRodape} />
+    </>
   );
 }
 

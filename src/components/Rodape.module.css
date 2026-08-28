@@ -1,0 +1,14 @@
+.rodape_container {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: auto;
+  border-top: 3px solid #ed145b;
+}
+
+.texto {
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
