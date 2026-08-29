@@ -1,3 +1,20 @@
+# Checkpoint 4 - Front-End Design Engineering
+
+Projeto desenvolvido para a disciplina de **Front-End Design Engineering**  **FIAP**.
+
+---
+
+## Integrante
+- **Eduardo Lima de Souza** - RM: 570412
+
+*Turma: 1TDSPI*
+
+---
+
+## Sobre o Projeto
+A aplicação consiste em uma plataforma de visualização e gerenciamento de integrantes cadastrados em formato de cards. O desenvolvimento teve foco na componentização limpa com React, tipagem estrita com TypeScript e modularização de estilos com CSS Modules.
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
