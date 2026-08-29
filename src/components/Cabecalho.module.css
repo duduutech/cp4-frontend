@@ -2,27 +2,38 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.25rem 2rem;
-  background-color: #ffffff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1rem 3rem;
+  background: #ffffff;
+  border-bottom: 2px solid #0f172a;
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
 .logo {
-  height: 48px;
+  height: 55px;
   width: auto;
   object-fit: contain;
 }
 
 .titulo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #1a1a1a;
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0f172a;
+  font-family: 'JetBrains Mono', monospace;
+  background: #f1f5f9;
+  padding: 0.4rem 1rem;
+  border: 2px solid #0f172a;
+  border-radius: 6px;
+  box-shadow: 2px 2px 0px #0f172a;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .cabecalho_container {
     flex-direction: column;
-    gap: 0.75rem;
-    text-align: center;
+    gap: 0.8rem;
+    padding: 1rem;
   }
 }

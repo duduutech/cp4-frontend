@@ -4,8 +4,8 @@ import Rodape from './components/Rodape';
 import { listaAlunos } from './data/alunos';
 
 function App() {
-  const tituloPagina = 'CP4 - Front-End Design Engineering';
-  const logoUrl = '/logo.svg';
+  const tituloPagina = 'CP4 - Front-End ';
+  const logoUrl = '/next-logo.png';
   const textoRodape = '© 2026 FIAP - Análise e Desenvolvimento de Sistemas | CP4';
 
   return (
