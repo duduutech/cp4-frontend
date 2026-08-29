@@ -10,14 +10,5 @@ Projeto desenvolvido para a disciplina de **Front-End Design Engineering** **FIA
 
 ---
 
-## 🔗 Repositório no GitHub
-👉 [https://github.com/SEU-USUARIO/SEU-REPOSITORIO](https://github.com/SEU-USUARIO/SEU-REPOSITORIO)
-
-
----
-
-## Como Executar o Projeto
-
-1. Instale as dependências:
-```bash
-npm install
+## Repositório no GitHub
+ https://github.com/duduutech/cp4-frontend
